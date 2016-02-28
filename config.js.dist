@@ -1,0 +1,7 @@
+module.exports = {
+    redditAppId: '',
+    mongodbConnection: 'mongodb://localhost/your_database_name',
+    awsId: '',
+    awsSecret: '',
+    awsTag: '',
+};
