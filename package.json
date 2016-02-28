@@ -1,0 +1,8 @@
+{
+  "name": "amazon-affiliate-tool",
+  "dependencies": {
+    "mongoose": "^4.1.10",
+    "reddit-stream": "^1.2.0",
+    "amazon-product-api": "^0.3.8"
+  }
+}
