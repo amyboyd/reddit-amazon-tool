@@ -1,3 +1,8 @@
+Configuration
+=============
+
+Copy `config.json.dist` to `config.json` and configure the app in that file.
+
 Usage
 =====
 
