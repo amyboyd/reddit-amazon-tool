@@ -17,3 +17,9 @@ Run this script every 5 minutes or so to generate leads from the reddit comments
 ```
 node identify-amazon.com-leads.js
 ```
+
+Run this script every 5 minutes or so to actually send messages on reddit to the commenters.
+
+```
+node ./get-message-to-send-to-lead.js | python send-message.py
+```

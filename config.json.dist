@@ -3,5 +3,7 @@
     "mongodbConnection": "mongodb://localhost/your_database_name",
     "awsId": "",
     "awsSecret": "",
-    "awsTag": ""
+    "awsTag": "",
+    "messagerRedditUsername": "",
+    "messagerRedditPassword": ""
 }

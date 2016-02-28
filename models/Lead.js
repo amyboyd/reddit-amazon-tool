@@ -5,6 +5,7 @@ const Lead = db.model('Lead', {
     asins: [String],
     amazonProducts: Object,
     leadGeneratedAt: { type: Date, default: Date.now },
+    hasMessageBeenSent: { type: Boolean, default: false },
 });
 
 Lead.prototype.getOriginalPosterReward = function getOriginalPosterReward() {
